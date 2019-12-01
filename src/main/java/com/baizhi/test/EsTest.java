@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class EsTest {
     @Test
     public void findAll() {
-
+        System.out.println("1");
     }
 
 }
