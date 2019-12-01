@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /es
+  port: 8989
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/ems
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /
+mybatis:
+  type-aliases-package: com.baizhi.entity
+  mapper-locations: classpath:com/baizhi/mapper/*.xml
