@@ -13,6 +13,7 @@ public class EsTest {
     @Test
     public void findAll() {
         System.out.println("1");
+         System.out.println("2");
     }
 
 }
